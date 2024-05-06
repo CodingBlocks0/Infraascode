@@ -21,12 +21,4 @@ variable "inbound_ports" {
   default     = [80, 22, 443]  
 }
 
-variable "access_key"{
-  type = string
-  default = var.AWS_ACCESS_KEY_ID
-}
 
-variable "secret_key"{
-  type = string
-  default = var.AWS_ACCESS_KEY_ID
-}
